@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos IPlast</title>
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<header>
+    <a href="../html/home.html">
+        <h1>IPlast</h1>
+    </a>
+</header>
+
+<body>
+    <main>
+        <container class="cadastrar">
+            <button id="modal">Novo Clientes</button>
+        </container>
+        <div id="modaL" class="Modal">
+            <div class="modalConteudo">
+                <span class="fechar">&times;</span>
+                <h3>Cadastre um Cliente</h3>
+                <input type="text" placeholder="Nome" name="nome">
+                <input type="number" placeholder="CPF" name="cpf" maxlength="11">
+                <input type="email" placeholder="Email" name="Email">
+                <input type="text" placeholder="Logradouro" name="Logradouro">
+                <input type="submit" value="Cadastrar">
+            </div>
+    </main>
+
+    <table class="tabelaProdutos">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>CPF</th>
+                <th>Email</th>
+                <th>Logradouro</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maria Eduarda Berto</td>
+                <td>65498712301</td>
+                <td>duda.berto@gmail.com</td>
+                <td>Jardim Itália</td>
+                <td>
+                    <button class="editar">Editar</button>
+                    <button class="excluir">Excluir</button>
+
+            </tr>
+            <tr>
+                <td>Emily Goulart</td>
+                <td>75432681212</td>
+                <td>emily.goulart@gmail.com</td>
+                <td>Jardim Figueira</td>
+                <td>
+                    <button class="editar">Editar</button>
+                    <button class="excluir">Excluir</button>
+
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+<footer>
+    <p>Desenvolvido por Duda Berto</p>
+</footer>
+<script src="../script/modal.js"></script>
+
+</html>

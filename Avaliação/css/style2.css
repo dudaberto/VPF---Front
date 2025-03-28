@@ -1,0 +1,28 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.button{
+    display: flex;
+    gap: 20px;
+}
+
+.botoes{
+    background-color: #e23692;
+    color: white;
+    padding: 20px 35px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botoes:hover{
+    background-color: #ffa4d4;
+}
+
+body{
+    background: rgb(219, 219, 219);
+}

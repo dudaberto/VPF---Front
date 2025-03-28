@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos IPlast</title>
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<header>
+    <a href="../html/home.html">
+        <h1>IPlast</h1>
+    </a>
+</header>
+
+<body>
+    <main>
+        <container class="cadastrar">
+            <button id="modal">Novo Produto</button>
+        </container>
+        <div id="modaL" class="Modal">
+            <div class="modalConteudo">
+                <span class="fechar">&times;</span>
+                <h3>Cadastre um Produto</h3>
+                <input type="text" placeholder="Nome do Produto" name="nome">
+                <input type="text" placeholder="Descrição" name="descricao">
+                <input type="text" placeholder="Valor de Custo" name="vacusto">
+                <input type="text" placeholder="Valor de Venda" name="vavenda">
+                <input type="submit" value="Cadastrar">
+            </div>
+        </div>
+    </main>
+
+    <table class="tabelaProdutos">
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Descrição</th>
+                <th>Valor Custo</th>
+                <th>Valor Venda</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Arroz</td>
+                <td>Arroz Parbonizado</td>
+                <td>R$ 15,00</td>
+                <td>R$ 25,00</td>
+                <td>
+                    <button class="editar">Editar</button>
+                    <button class="excluir">Excluir</button>
+
+            </tr>
+            <tr>
+                <td>Feijão</td>
+                <td>Feijão Carioca</td>
+                <td>R$ 12,00</td>
+                <td>R$ 20,00</td>
+                <td>
+                    <button class="editar">Editar</button>
+                    <button class="excluir">Excluir</button>
+
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+<footer>
+    <p>Desenvolvido por Duda Berto</p>
+</footer>
+<script src="../script/modal.js"></script>
+
+</html>
